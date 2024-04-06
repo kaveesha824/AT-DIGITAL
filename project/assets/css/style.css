@@ -2,18 +2,20 @@
 margin-top: 70px;
   background-position: 0px 56px;
   width: 100%;
-  background-repeat: no-repeat;
-
- 
-  
+  background-repeat: no-repeat;  
 }
+
+@media (max-width: 768px) {
+  .nav1 .nav-link {
+    color: rgb(0, 0, 0) !important;
+  }
+}
+
+
 .bg-image{
   width: 100%;
  background-size: cover;
   height: 44vw;
-}
-.sidemenu{
-background-color: #6B3CC9;
 }
 
 .bg{
@@ -110,6 +112,10 @@ body {
 .btntext{
   font-size: 14px;
   color:#FFFFFF;
+  font-family: "Inter";
+  font-weight: 700;
+  line-height: 14px;
+  
  
 }
 
